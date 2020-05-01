@@ -1,7 +1,9 @@
 $primary-color: beige;
+$background-opacity: 0.6;
 
 @include mediaSm {
   .home {
+    background-color: ($primary-color);
   }
 }
 
