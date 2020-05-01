@@ -1,0 +1,16 @@
+$primary-color: beige;
+
+@include mediaSm {
+  .home {
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #ol {
+    align-items: center;
+    text-align: center;
+    width: 100vh;
+    height: 60%;
+    display: flex;
+  }
+}

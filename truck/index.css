@@ -3,21 +3,15 @@
   color: blue;
 }
 
-.topp {
-  text-align: center;
-  color: blue;
-  margin-top: 40px;
-}
-
 #kent {
   width: 100%;
   height: 550px;
   margin-top: 40px;
 }
 
-.home {
+/* .home {
   background-color: beige;
-}
+} */
 
 .list {
   color: blue;
@@ -26,34 +20,35 @@
 }
 
 .list2 {
-  color: blue;
-
+  color: black;
   flex: left;
 }
 
-.links {
+.container {
   font-size: larger;
-  margin-left: 20px;
   padding-right: 5px;
-  color: blue;
+  color: red;
 }
 
-.links a {
+.container a {
   padding: 12px;
-  color: blue;
+  color: red;
+  display: flexbox;
+  background-color: blue;
 }
 
 .way {
   font-size: larger;
   display: inline-block;
-  color: blue;
+  color: red;
 }
 
 .way a {
   padding: 12px;
-  margin-top: 30px;
+  margin-top: 10px;
   display: inline-block;
-  color: blue;
+  color: red;
+  background-color: blue;
 }
 
 h2 {
@@ -61,12 +56,11 @@ h2 {
   margin-left: 10px;
 }
 
-#ol {
-  /* height: 60%;
-  width: 70%; */
-  margin-top: 20px;
-  padding-left: 250px;
-}
+/* #ol {
+  margin-top: 40px;
+  height: 60em;
+  width: 100%;
+} */
 
 .top2 {
   text-align: center;
@@ -74,22 +68,27 @@ h2 {
   margin-top: 20px;
 }
 
-.convo {
+.topp {
+  text-align: center;
   color: blue;
+  margin-top: 40px;
+}
+
+.convo {
+  color: black;
   margin-top: 40px;
 }
 
 .auto {
   font-size: larger;
-  /* margin-left: 20px; */
-  /* padding-left: 5px; */
   color: blue;
 }
 
 .auto a {
   padding: 12px;
   margin-top: 40px;
-  color: blue;
+  color: red;
+  background-color: blue;
 }
 
 .top3 {
@@ -99,7 +98,7 @@ h2 {
 }
 
 .fre {
-  color: blue;
+  color: black;
   margin-top: 40px;
 }
 
@@ -112,11 +111,21 @@ h2 {
   font-size: larger;
   margin-top: 20px;
   padding-right: 5px;
-  color: blue;
+  /* color: black; */
 }
 
 .links2 a {
   padding: 12px;
   margin-top: 40px;
-  color: blue;
+  color: red;
+  background-color: blue;
+  display: flexbox;
+}
+
+@media only screen and (max-width: 480px) {
+  #ol {
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
 }
