@@ -11,3 +11,7 @@ $background-opacity: 0.6;
     @content;
   }
 }
+
+@mixin home {
+  background-color: blue;
+}
