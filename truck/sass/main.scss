@@ -1,0 +1,16 @@
+@import 'config';
+
+$primary-color: #0000ff;
+// $background-opacity: 0.6;
+
+.home {
+  background-color: #0000ff;
+}
+
+#ol {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
