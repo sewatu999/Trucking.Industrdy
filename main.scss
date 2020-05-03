@@ -1,14 +1,14 @@
 $primary-color: #0000ff;
 // $background-opacity: 0.6;
 
-home {
-  background-color: #0000ff;
+body {
+  background-color: ($primary-color);
 }
 
-ol {
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 60%;
-  display: flex;
-}
+// ol {
+//   align-items: center;
+//   text-align: center;
+//   width: 100%;
+//   height: 60%;
+//   display: flex;
+// }
