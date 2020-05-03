@@ -1,19 +1,28 @@
-$primary-color: #0000ff;
+@import '_config';
+
+$primary-color: #f5f5dc;
+$secondary-color: #0000ff;
 // $background-opacity: 0.6;
 
 body {
   background-color: $primary-color;
+
+  .top {
+    color: $secondary-color;
+    text-align: center;
+  }
+
+  .list {
+    color: blue;
+    margin-top: 30px;
+    flex: left;
+  }
 }
 
-.top {
-  color: $primary-color;
-  align-content: center;
+#ol {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  display: flex;
 }
-
-// ol {
-//   align-items: center;
-//   text-align: center;
-//   width: 100%;
-//   height: 60%;
-//   display: flex;
-// }
