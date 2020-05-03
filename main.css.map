@@ -1,7 +1,13 @@
 {
-"version": 3,
-"mappings": "AAGA,IAAK;EACH,gBAAgB,EAJF,OAAO",
-"sources": ["main.scss"],
-"names": [],
-"file": "main.css"
+  "version": 3,
+  "mappings": "AAGA,IAAK;EACH,gBAAgB,EAJF,OAAO",
+  "sources": [
+    "main.scss"
+  ],
+  "names": [
+    "index.html",
+    "truck",
+    "project0"
+  ],
+  "file": "main.css"
 }
