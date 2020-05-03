@@ -1,4 +1,4 @@
-/*
+/* 
 Errno::ENOENT: No such file or directory @ rb_sysopen - main.scss
 
 Backtrace:
@@ -15,9 +15,14 @@ Backtrace:
 /Users/abduljames/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
 /Users/abduljames/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
 /Users/abduljames/.rbenv/versions/2.6.3/bin/sass:23:in `load'
-/Users/abduljames/.rbenv/versions/2.6.3/bin/sass:23:in `<main>'
-*/
+/Users/abduljames/.rbenv/versions/2.6.3/bin/sass:23:in `<main>' */
+
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - main.scss"; }
+  content: 'Errno::ENOENT: No such file or directory @ rb_sysopen - main.scss';
+}
+
+.home {
+  background-color: beige;
+}
