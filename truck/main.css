@@ -87,7 +87,7 @@ h2 {
   }
 
   header .kent {
-    image: url(media-queries-phone.jpg);
+    image: 'media-queries-phone.jpg';
     height: 93px;
     position: relative;
   }
